@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  background: #2c3e50;
+  padding: 0 50px;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+  transition: all 0.3s ease;
+}
+
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  line-height: 2;
+  text-indent: 3rem;
+}
+
+h1 {
+  margin: 1rem;
+  text-align: center;
+}
+
+#login {
+  background-color: orange;
+  color: black;
+  border-radius: 2rem;
+}
+
+#login:hover {
+  background-color: rgba(201, 132, 4, 0.619);
+  color: white;
+}
+
+
