@@ -5,6 +5,7 @@
   justify-content: space-between;
   background: #2c3e50;
   padding: 0 50px;
+  border-radius: 3rem;
 }
 
 .navbar .logo {
@@ -24,6 +25,7 @@
   font-size: 18px;
   padding: 8px 15px;
   transition: all 0.3s ease;
+  
 }
 
 p {
