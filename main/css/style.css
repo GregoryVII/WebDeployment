@@ -25,14 +25,14 @@
   font-size: 18px;
   padding: 8px 15px;
   transition: all 0.3s ease;
-  
+
 }
 
 p {
   margin-left: 1rem;
   margin-right: 1rem;
-  line-height: 2;
-  text-indent: 3rem;
+  line-height: 1.5;
+  /* text-indent: 3rem; */
 }
 
 h1 {
@@ -51,4 +51,19 @@ h1 {
   color: white;
 }
 
+.section1 {
+  /* outline: auto; */
+  display: flex;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  gap: 12px;
+  background-color: #a3b9dac7;
+  border-radius: 2rem;
+}
 
+img {
+  width: 22rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 9px;
+}
