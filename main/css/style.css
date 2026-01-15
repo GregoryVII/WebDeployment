@@ -6,6 +6,7 @@
   background: #2c3e50;
   padding: 0 50px;
   border-radius: 3rem;
+  margin-bottom: 2rem;
 }
 
 .navbar .logo {
@@ -51,13 +52,22 @@ h1 {
   color: white;
 }
 
-.section1 {
+section {
   /* outline: auto; */
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding-bottom: 1rem;
   gap: 12px;
   background-color: #a3b9dac7;
+  border-radius: 2rem;
+}
+
+.section-reverse {
+  flex-direction: row-reverse;
+}
+
+.reverse {
+  margin-right: 1rem;
   border-radius: 2rem;
 }
 
@@ -67,3 +77,4 @@ img {
   margin-left: 1rem;
   border-radius: 9px;
 }
+
